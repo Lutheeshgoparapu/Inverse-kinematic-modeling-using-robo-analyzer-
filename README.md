@@ -36,8 +36,14 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
 ![image](https://user-images.githubusercontent.com/36288975/170623020-f27efc12-bb58-4f62-840d-af544ac6689e.png)
 
 ### PROCEDURE:
-
-
+```
+1.open the roboanalyzer software.
+2.select the robot and its degrees of freedom.
+3.change the values of X and Y wherever necessary.
+4.simulate the model for inverse kinematics.
+5.plot the graph between the joints.
+6.update the DH parameters of the link configuration and end effector configuration.
+```
 
 
 
@@ -45,6 +51,15 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
 
 
 ### SIMULATION 
+### RPR ROBOT:
+![image](https://user-images.githubusercontent.com/94154531/174305007-a5b24df5-117a-49f8-acdd-313cf22fa8c9.png)
+![image](https://user-images.githubusercontent.com/94154531/174305368-06ac2d00-38b5-42fa-aaf9-3ad532e56503.png)
+
+3R ROBOT:
+![image](https://user-images.githubusercontent.com/94154531/174305070-80a5f0ed-3e4c-4a9f-af96-5f20c6014bb0.png)
+![image](https://user-images.githubusercontent.com/94154531/174305404-886e4ddb-988a-44c7-9656-de86458da6a5.png)
+
+
  
  
  
@@ -53,6 +68,13 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
  
  
  ### PLOT 
+ ### RPR ROBOT
+ ![image](https://user-images.githubusercontent.com/94154531/174305436-5a8f6338-a8db-4143-8362-4a080c3074b3.png)
+![image](https://user-images.githubusercontent.com/94154531/174305460-626e119e-0d5a-4962-a14d-2c4f3f56dff9.png)
+### 3R ROBOT
+![image](https://user-images.githubusercontent.com/94154531/174305488-71b5cec7-3e25-4e2e-9ea3-5cac7667637e.png)
+![image](https://user-images.githubusercontent.com/94154531/174305524-32aba2c4-f3b8-4cda-9cae-69acd66e0344.png)
+
  
  
  
@@ -83,3 +105,4 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
 
 
 ### RESULTS :  
+Thus,the inverse kinematics using DH parameters for a 3 dof planer and 3 dof articulated robot using roboanalyzer is analysed and the graph of joint angle for a given input end effector position is plotted.
